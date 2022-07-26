@@ -1,0 +1,44 @@
+  <html xmlns="http://www.w3.org/1999/html">
+  <head>
+    <title>stadtbook.de: &nbsp;M&uuml;nchen &nbsp;31. 8. 2022</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="./css/Day.css" type="text/css"/>
+  </head>
+  <body>
+  <div class="body">
+      <div></div>
+      <div>
+          <div class="top">
+              <h1><a href="index.html">stadtbook.de</a></h1>
+          </div>
+          <div class="banner">
+              <div>&nbsp;</div>
+              <div class="month-box">         <iframe src="months/2022-06.html"></iframe></div>
+          </div>
+
+          <div  class="content">
+              <h3>Dingats</h3>
+                <table border="1" id="dingbats"></table>
+              <script>
+              let content = '<tr>';
+                for (i=0; i<100000;i++) {
+                    if (i%10 == 0)  {
+                    content +='</tr><tr><td>' + i + '</td>';
+                    }
+                    content += '<td>&#'+i+';</td> '
+                }
+                content += '</tr>'
+                document.getElementById('dingbats').innerHTML = content;
+              </script>
+          </div>
+
+          <div class="footer">
+              <a href="about.html">über</a>
+              - <a href="impressum.html">impressum</a>
+              - <a href="disclaimer.html">disclaimer</a>
+              - <a href="event.html">neuer event</a>
+          </div>
+      </div>
+  </div>
+  </body>
+</html>

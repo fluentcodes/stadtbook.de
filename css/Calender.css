@@ -1,0 +1,37 @@
+body {
+font-family: "Open Sans", "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+font-size:0.8rem;
+background-color: #FFFFFF;
+}
+
+table {
+    font-size: 0.8rem;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 4px;
+}
+
+a:hover {
+    font-weight: 400;
+    color: #CCCCCC;
+}
+
+.currentDate {
+    font-weight: 400;
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 200;
+    color: #000000;
+}
+
+h1 {
+    font-size:1rem;
+    text-align: center;
+}
