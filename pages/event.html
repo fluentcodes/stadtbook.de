@@ -26,15 +26,15 @@
 
                 <!--FACEBOOK-->
         <meta property="og:title" content="Neuer Event"/>
-        <meta property="og:url" content="https://stadtbook.de/pages/pages/event.html"/>
+        <meta property="og:url" content="https://stadtbook.de/pages/event.html"/>
         <meta property="og:site_name" content="stadtbook.de"/>
         <meta property="og:type" content="website"/>
 
                 <!--SEO-->
         <meta name="robots" content="index,follow"/>
-        <link rel="alternate" href="https://stadtbook.de/pages/pages/event.html" hreflang="x-default"/>
-        <link rel="alternate" href="https://stadtbook.de/pages/pages/event.html" hreflang="de-de"/>
-        <link rel="canonical" href="https://stadtbook.de/pages/pages/event.html"/>
+        <link rel="alternate" href="https://stadtbook.de/pages/event.html" hreflang="x-default"/>
+        <link rel="alternate" href="https://stadtbook.de/pages/event.html" hreflang="de-de"/>
+        <link rel="canonical" href="https://stadtbook.de/pages/event.html"/>
                 <!--meta name="google-site-verification" content=""/-->
                 <!--demo.theeventscalendar.com-->
 
@@ -45,50 +45,61 @@
                 <!--meta name="twitter:image" content=""/-->
 
                 <!--CSS-->
-        <link rel="stylesheet" href="../css/Day.css?v=1.0" type="text/css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
+        <link rel="stylesheet" href="../css/Day2.css?v=1.2" type="text/css"/>
 
-        <script src="../js/TypeAnchors.js?v=1.0"></script>
-        <script src="../js/Cookies.js?v=1.1"></script>
-        <script src="../js/Ads.js?v=1.0"></script>
-
+        <script src="../js/Stadtbook.js?v=2.1"></script>
+        <script src="../js/TypeAnchors.js?v=2.0"></script>
+        <script src="../js/Cookies.js?v=2.0"></script>
+        <script src="../js/Ads.js?v=2.0"></script>
+        <script src="https://kit.fontawesome.com/affe0a850a.js" crossorigin="anonymous"></script>
                 <!--ANALYTICS-->
         <script language="javascript">
-        let stadtbook = {};
         stadtbook.cookies = new Cookies(window.location.search);
         </script>
     </head>
-  <body><div class="sb-top" id="top">
-    <div class="sb-top-head">
-        <a href="../index.html" class="sb-top-text"><h1>stadtbook.de
-            <span class="sb-top-text">Neuer Event</span></h1></a>
+  <body>
+      <a name="start"> </a>
+    <div class="sb-top">
+        <div id="top" class="sb-top-container">
+            <a href="../index.html" class="sb-top-text"  title="Zum Stadtkalender">
+                <div>
+                    <div class="sb-top-image"><img src="../img/stadtbook.jpeg" width="60" title="Zum Stadtkalender"/></div>
+                    <div class="sb-top-head">stadtbook.de</div>
+                </div>
+            </a>
+            <div>
+                <div class="sb-top-grid">
+                    <h2 class="sb-top-title" id="top-title">Neuer Event</h2>
+                    <div class="sb-top-function">
+                        <div class="sb-top-search-box">
+                            <input type="text" class="sb-top-search" size="12" onkeypress="if (event.keyCode === 13) {
+                                        stadtbook.search(this.value);
+                                       }"/>
+                        </div>
+                        <div class="sb-top-button-box">
+                            <a href="https://www.instagram.com/stadtbook/" target="external">
+                                <i class="fa-brands fa-square-instagram" style="color:white;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sb-day-link-box" id="day-link-box"><div class="sb-top-calender"><a href="../index.html" title="zum Kalender" class="sb-day-link"><i class="fa-regular fa-clock"></i></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="sb-type-link-box" > </div>
     </div>
-    <div class="sb-type-links"> 
-    </div>
-</div>
-
-    <div class="sb-body">
-    <a name="start"> </a>
-<div class="banner" id="banner">
-    <div class="sub-title" id="slogan">... f&uuml;r Stadtentdecker</div>
-    <div class="month-box">
-        <iframe id="month"></iframe>
-        <script>
-            var iframe = document.getElementById('month');
-            if (iframe) {
-            let month = new Date().getMonth()+1;
-            if (month < 10) {
-                month='0' + month;
-            }
-            iframe.src='../months/2022-' + month + '.html';
-            }
-        </script>
-        <div class="copy-right"><a href="https://www.instagram.com/monis_blick/" class="copy-right-author" target="external">&#169; Bild Monika Hirmer</a></div>
-    </div>
-</div>
 
 
-      <div  class="sb-content">            <p>Bis auf weiteres einfach ein formloses Email an info@stadtbook.de schicken mit den folgenden
+    <div class="sb-body" id="body">
+        <div></div>
+        <div>
+      <div  class="sb-content">
+        <div class="sb-photo">
+            <img src="img/muenchen.jpeg" width="100%"/>
+            <div class="sb-photo-text"><a href="https://www.instagram.com/monis_blick/" class="sb-photo-text" target="external">&#169; Bild Monika Hirmer</a></div>
+        </div>
+        <h1>Neuer Event</h1>            <p>Bis auf weiteres einfach ein formloses Email an info@stadtbook.de schicken mit den folgenden
             Infos :</p>
 
             <ul>
@@ -102,10 +113,11 @@
            <p> Bei wiederkehrenden Events zus&auml;tzlich ggf das Stopdatum und die Wochentage mit Startzeiten.</p>
       </div>
 
-      <div> 
-      </div>
+ 
 <div class="sb-footer">
-    <a href="../pages/about.html">&uuml;ber</a>
+    <a href="../pages/project.html">projekt</a>
+    - <a href="../pages/team.html">team</a>
+    - <a href="../pages/about.html">&uuml;ber</a>
     - <a href="../pages/impressum.html">impressum</a>
     - <a href="../pages/disclaimer.html">disclaimer</a>
     - <a href="../pages/event.html">event posten</a>
@@ -113,8 +125,8 @@
 <div></div><!--right column-->
 <div class="sb-footer-social">
     <a href="https://www.instagram.com/stadtbook/">instagram</a> -
-    <a href="https://twitter.com/stadtbook">twitter</a> -
-    <a href="https://stadtbook.blogspot.com/">blogspot</a>
+    <a href="https://www.facebook.com/stadtbook/">facebook</a> -
+    <a href="https://twitter.com/stadtbook">twitter</a>
 </div>
 <div></div><!--right column-->
 <div class="sb-generator">
@@ -122,17 +134,24 @@
 </div>
 
 
-  </div><div id="tool-tip" class="sb-tool-tip">Test</div>
+  </div>
+
+<div id="tool-tip" class="sb-tool-tip">Test</div>
 <div id="cookie-box" class="sb-cookie-box"></div>
 
   </body><script language="javascript">
+
     document.getElementById('tool-tip').style.display = 'none';
     stadtbook.anchors = new TypeAnchors(window.location.search);
     stadtbook.ads = new Ads(window.location.search);
-    // position
-    let positionBanner = document.getElementById('top').offsetHeight;
-    document.getElementById('banner').style.marginTop = positionBanner + 20;
     // cookies
     stadtbook.cookies.showOrHide();
+    stadtbook.adjustStartBanner();
+    window.addEventListener("resize", function(event) {
+        stadtbook.adjustStartBanner();
+    });
 </script>
+  <script language="javascript">
+      stadtbook.createDayNav();
+  </script>
 </html>

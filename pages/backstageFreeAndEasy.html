@@ -26,15 +26,15 @@
 
                 <!--FACEBOOK-->
         <meta property="og:title" content="Free & Easy"/>
-        <meta property="og:url" content="https://stadtbook.de/pages/pages/backstageFreeAndEasy.html"/>
+        <meta property="og:url" content="https://stadtbook.de/pages/backstageFreeAndEasy.html"/>
         <meta property="og:site_name" content="stadtbook.de"/>
         <meta property="og:type" content="website"/>
 
                 <!--SEO-->
         <meta name="robots" content="index,follow"/>
-        <link rel="alternate" href="https://stadtbook.de/pages/pages/backstageFreeAndEasy.html" hreflang="x-default"/>
-        <link rel="alternate" href="https://stadtbook.de/pages/pages/backstageFreeAndEasy.html" hreflang="de-de"/>
-        <link rel="canonical" href="https://stadtbook.de/pages/pages/backstageFreeAndEasy.html"/>
+        <link rel="alternate" href="https://stadtbook.de/pages/backstageFreeAndEasy.html" hreflang="x-default"/>
+        <link rel="alternate" href="https://stadtbook.de/pages/backstageFreeAndEasy.html" hreflang="de-de"/>
+        <link rel="canonical" href="https://stadtbook.de/pages/backstageFreeAndEasy.html"/>
                 <!--meta name="google-site-verification" content=""/-->
                 <!--demo.theeventscalendar.com-->
 
@@ -45,57 +45,61 @@
                 <!--meta name="twitter:image" content=""/-->
 
                 <!--CSS-->
-        <link rel="stylesheet" href="../css/Day.css?v=1.0" type="text/css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
+        <link rel="stylesheet" href="../css/Day2.css?v=1.2" type="text/css"/>
 
-        <script src="../js/TypeAnchors.js?v=1.0"></script>
-        <script src="../js/Cookies.js?v=1.1"></script>
-        <script src="../js/Ads.js?v=1.0"></script>
-
+        <script src="../js/Stadtbook.js?v=2.1"></script>
+        <script src="../js/TypeAnchors.js?v=2.0"></script>
+        <script src="../js/Cookies.js?v=2.0"></script>
+        <script src="../js/Ads.js?v=2.0"></script>
+        <script src="https://kit.fontawesome.com/affe0a850a.js" crossorigin="anonymous"></script>
                 <!--ANALYTICS-->
         <script language="javascript">
-        let stadtbook = {};
         stadtbook.cookies = new Cookies(window.location.search);
         </script>
     </head>
-  <body><div class="sb-top"  id="top">
-    <div class="sb-top-grid"  id="top1">
-        <div>
-            <a href="../index.html" class="sb-top-text">
-            <h1 class="sb-top-head">stadtbook.de</h1>
+  <body>
+      <a name="start"> </a>
+    <div class="sb-top">
+        <div id="top" class="sb-top-container">
+            <a href="../index.html" class="sb-top-text"  title="Zum Stadtkalender">
+                <div>
+                    <div class="sb-top-image"><img src="../img/stadtbook.jpeg" width="60" title="Zum Stadtkalender"/></div>
+                    <div class="sb-top-head">stadtbook.de</div>
+                </div>
             </a>
+            <div>
+                <div class="sb-top-grid">
+                    <h2 class="sb-top-title" id="top-title">Free & Easy</h2>
+                    <div class="sb-top-function">
+                        <div class="sb-top-search-box">
+                            <input type="text" class="sb-top-search" size="12" onkeypress="if (event.keyCode === 13) {
+                                        stadtbook.search(this.value);
+                                       }"/>
+                        </div>
+                        <div class="sb-top-button-box">
+                            <a href="https://www.instagram.com/stadtbook/" target="external">
+                                <i class="fa-brands fa-square-instagram" style="color:white;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sb-day-link-box" id="day-link-box"><div class="sb-top-calender"><a href="../index.html" title="zum Kalender" class="sb-day-link"><i class="fa-regular fa-clock"></i></a></div>
+                </div>
+            </div>
         </div>
-        <div class="sb-top-title">Free & Easy</div>
+        <div class="sb-type-link-box" > </div>
+    </div>
+
+
+    <div class="sb-body" id="body">
         <div></div>
-
-    <div class="sb-type-links" id="top2"> 
-    </div>
-    </div>
-</div>
-
-
-    <div class="sb-body">
-    <a name="start"> </a>
-<div class="banner" id="banner">
-    <div class="sub-title" id="slogan">... f&uuml;r Stadtentdecker</div>
-    <div class="month-box">
-        <iframe id="month"></iframe>
-        <script>
-            var iframe = document.getElementById('month');
-            if (iframe) {
-            let month = new Date().getMonth()+1;
-            if (month < 10) {
-                month='0' + month;
-            }
-            iframe.src='../months/2022-' + month + '.html';
-            }
-        </script>
-        <div class="copy-right"><a href="https://www.instagram.com/monis_blick/" class="copy-right-author" target="external">&#169; Bild Monika Hirmer</a></div>
-    </div>
-</div>
-
-
-      <div  class="sb-content"> <p>Das Backstage free & easy ist eines meiner Lieblingsfeste hier in M&uuml;nchen. Im fast dreiw&ouml;chigen  Hardcore Programm findet sich die eine oder andere Indie Perle. 
+        <div>
+      <div  class="sb-content">
+        <div class="sb-photo">
+            <img src="img/muenchen.jpeg" width="100%"/>
+            <div class="sb-photo-text"><a href="https://www.instagram.com/monis_blick/" class="sb-photo-text" target="external">&#169; Bild Monika Hirmer</a></div>
+        </div>
+        <h1>Free & Easy</h1> <p>Das Backstage free & easy ist eines meiner Lieblingsfeste hier in M&uuml;nchen. Im fast dreiw&ouml;chigen  Hardcore Programm findet sich die eine oder andere Indie Perle. 
 </p>
 
 <p>Und wenn das Programm gerade nicht passt, bieten ein Underground Biergarten oder eine chillige Sing a Song Writer Bar Lounge Alternativen. </p>
@@ -103,373 +107,14 @@
 <p>Was Backstage mit all dem tropischen Gr&uuml;nzeug im Winter macht, bleibt mir ein R&auml;tsel. Alleine schon deshalb lohnt sich ein Besuch des Backstage im ehemaligen Industrieareal!</p>
       </div>
 
-      <div>
+
      <div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage" target="external">Backstage</a></div>             <div></div>
-           <div class="startDate">19:00</div>
-           <a href="https://www.bing.com/search?q=Mountain Lake Vista + Dave Collide" target="external"><h4>Mountain Lake Vista + Dave Collide</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/mountain-lake-vista.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Mountain Lake Vista + Dave Collide" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Club" target="external">Backstage Club</a></div>             <div></div>
-           <div class="startDate">20:00</div>
-           <a href="https://www.bing.com/search?q=Tenside + Lonely Spring + Since April" target="external"><h4>Tenside + Lonely Spring + Since April</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/tenside-gaste.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Tenside + Lonely Spring + Since April" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Werk" target="external">Backstage Werk</a></div>             <div></div>
-           <div class="startDate">20:00</div>
-           <a href="https://www.bing.com/search?q=Youth Of Today + Oceans + Slope" target="external"><h4>Youth Of Today + Oceans + Slope</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/youth-of-today.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Youth Of Today + Oceans + Slope" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Halle" target="external">Backstage Halle</a></div>             <div></div>
-           <div class="startDate">21:30</div>
-           <a href="https://www.bing.com/search?q=Ferris + R&auml;uber Heikel" target="external"><h4>Ferris + R&auml;uber Heikel</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/ferris.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Ferris + R&auml;uber Heikel" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div><div class="date">29. 7. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage" target="external">Backstage</a></div>             <div></div>
-           <div class="startDate">18:30</div>
-           <a href="https://www.bing.com/search?q=Lesung: Nico Rose: Hard, Heavy & Happy" target="external"><h4>Lesung: Nico Rose: Hard, Heavy & Happy</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/lesung-nico-rose-hard-heavy-happy.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Lesung: Nico Rose: Hard, Heavy & Happy" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage" target="external">Backstage</a></div>             <div></div>
-           <div class="startDate">19:00</div>
-           <a href="https://www.bing.com/search?q=Lenny Bruce Jr. + John Henry & Johannes Schleiermacher" target="external"><h4>Lenny Bruce Jr. + John Henry & Johannes Schleiermacher</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/lenny-bruce-jr.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Lenny Bruce Jr. + John Henry & Johannes Schleiermacher" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Werk" target="external">Backstage Werk</a></div>             <div></div>
-           <div class="startDate">19:00</div>
-           <a href="https://www.bing.com/search?q=The Bouncing Souls + Victory Kid + The Special Bombs + Captain Asshole" target="external"><h4>The Bouncing Souls + Victory Kid + The Special Bombs + Captain Asshole</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/the-bouncing-souls.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+The Bouncing Souls + Victory Kid + The Special Bombs + Captain Asshole" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Club" target="external">Backstage Club</a></div>             <div></div>
-           <div class="startDate">20:00</div>
-           <a href="https://www.bing.com/search?q=Wucan + Filistine" target="external"><h4>Wucan + Filistine</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/wucan.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Wucan + Filistine" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div><div class="date">30. 7. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Halle" target="external">Backstage Halle</a></div>             <div></div>
-           <div class="startDate">18:00</div>
-           <a href="https://www.bing.com/search?q=Arcticmusic Showcase" target="external"><h4>Arcticmusic Showcase</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/arcticmusic-showcase.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Arcticmusic Showcase" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Werk" target="external">Backstage Werk</a></div>             <div></div>
-           <div class="startDate">19:00</div>
-           <a href="https://www.bing.com/search?q=No Fun At All + Makewar + Green Frog Feet + Iq Zero" target="external"><h4>No Fun At All + Makewar + Green Frog Feet + Iq Zero</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/no-fun-at-all-makewar-green-frog-feet-iq-zero.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+No Fun At All + Makewar + Green Frog Feet + Iq Zero" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Club" target="external">Backstage Club</a></div>             <div></div>
-           <div class="startDate">20:00</div>
-           <a href="https://www.bing.com/search?q=From Fall To Spring + Floya + Rushmoon" target="external"><h4>From Fall To Spring + Floya + Rushmoon</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/from-fall-to-spring-floya.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+From Fall To Spring + Floya + Rushmoon" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div><div class="date">31. 7. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Halle" target="external">Backstage Halle</a></div>             <div></div>
-           <div class="startDate">20:00</div>
-           <a href="https://www.bing.com/search?q=Cattle Decapitation + Blood Incantation + Necrotted" target="external"><h4>Cattle Decapitation + Blood Incantation + Necrotted</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/cattle-decapitation-blood-incantation.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Cattle Decapitation + Blood Incantation + Necrotted" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Club" target="external">Backstage Club</a></div>             <div></div>
-           <div class="startDate">20:00</div>
-           <a href="https://www.bing.com/search?q=Triddana + Ingrimm - Doppelkonzert Free & Easy -" target="external"><h4>Triddana + Ingrimm - Doppelkonzert Free & Easy -</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/triddana-ingrimm-doppelkonzert-free-easy.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Triddana + Ingrimm - Doppelkonzert Free & Easy -" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Werk" target="external">Backstage Werk</a></div>             <div></div>
-           <div class="startDate">20:00</div>
-           <a href="https://www.bing.com/search?q=The Busters + Salome Fur" target="external"><h4>The Busters + Salome Fur</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/the-busters.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+The Busters + Salome Fur" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div><div class="date">1. 8. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Werk" target="external">Backstage Werk</a></div>             <div></div>
-           <div class="startDate">18:30</div>
-           <a href="https://www.bing.com/search?q=Megaherz + Evil Invaders + Crypta + Hiraes" target="external"><h4>Megaherz + Evil Invaders + Crypta + Hiraes</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/megaherz-evil-invaders-crypta-hiraes.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Megaherz + Evil Invaders + Crypta + Hiraes" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage" target="external">Backstage</a></div>             <div></div>
-           <div class="startDate">19:00</div>
-           <a href="https://www.bing.com/search?q=Free & Easy Politics Ii: Dr. Rainer Sontheimer Pr&auml;sentiert:" target="external"><h4>Free & Easy Politics Ii: Dr. Rainer Sontheimer Pr&auml;sentiert:</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/free-easy-politics-ii-dr-rainer-sontheimer-prasentiert.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Free & Easy Politics Ii: Dr. Rainer Sontheimer Pr&auml;sentiert:" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage" target="external">Backstage</a></div>             <div></div>
-           <div class="startDate">19:45</div>
-           <a href="https://www.bing.com/search?q=Fenzl Soloprogramm Ganz Aloa + Patrick "ehrwulf“ Culek" target="external"><h4>Fenzl Soloprogramm Ganz Aloa + Patrick "ehrwulf“ Culek</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/patrick-ehrwulf-culek.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Fenzl Soloprogramm Ganz Aloa + Patrick "ehrwulf“ Culek" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Club" target="external">Backstage Club</a></div>             <div></div>
-           <div class="startDate">20:00</div>
-           <a href="https://www.bing.com/search?q=Olympya + Sperling" target="external"><h4>Olympya + Sperling</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/olympia-sperling.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Olympya + Sperling" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Halle" target="external">Backstage Halle</a></div>             <div></div>
-           <div class="startDate">20:00</div>
-           <a href="https://www.bing.com/search?q=Pentagram - 50th Anniversary Tour" target="external"><h4>Pentagram - 50th Anniversary Tour</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/pentagram-50th-anniversary-tour.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Pentagram - 50th Anniversary Tour" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div><div class="date">2. 8. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage" target="external">Backstage</a></div>             <div></div>
-           <div class="startDate">19:00</div>
-           <a href="https://www.bing.com/search?q=Free & Easy Politics Iii: Dr. Rainer Sontheimer Pr&auml;sentiert:" target="external"><h4>Free & Easy Politics Iii: Dr. Rainer Sontheimer Pr&auml;sentiert:</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/free-easy-politics-iii-dr-rainer-sontheimer-prasentiert.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Free & Easy Politics Iii: Dr. Rainer Sontheimer Pr&auml;sentiert:" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Werk" target="external">Backstage Werk</a></div>             <div></div>
-           <div class="startDate">19:30</div>
-           <a href="https://www.bing.com/search?q=Gwar" target="external"><h4>Gwar</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/gwar-ill-nino.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Gwar" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Club" target="external">Backstage Club</a></div>             <div></div>
-           <div class="startDate">20:00</div>
-           <a href="https://www.bing.com/search?q=Headliner: Tba." target="external"><h4>Headliner: Tba.</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/strung-out-adolescents-templeton-pek.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Headliner: Tba." target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Halle" target="external">Backstage Halle</a></div>             <div></div>
-           <div class="startDate">21:00</div>
-           <a href="https://www.bing.com/search?q=Two Daze Here + Kesurapan - ??? &Uuml;berraschungskonzert ???" target="external"><h4>Two Daze Here + Kesurapan - ??? &Uuml;berraschungskonzert ???</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/uberraschungskonzert.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Two Daze Here + Kesurapan - ??? &Uuml;berraschungskonzert ???" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div><div class="date">3. 8. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Werk" target="external">Backstage Werk</a></div>             <div></div>
-           <div class="startDate">19:30</div>
-           <a href="https://www.bing.com/search?q=Kataklysm + Fleshgod Apocalypse + Dyscarnate" target="external"><h4>Kataklysm + Fleshgod Apocalypse + Dyscarnate</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/kataklysm-fleshgod-apocalypse-dyscarnate.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Kataklysm + Fleshgod Apocalypse + Dyscarnate" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage - Werk" target="external">Backstage - Werk</a></div>             <div></div>
-           <div class="startDate">19:30</div>
-           <a href="https://www.bing.com/search?q=Kataklysm + The Black Dahlia Murder + Dyscarnate" target="external"><h4>Kataklysm + The Black Dahlia Murder + Dyscarnate</h4></a>
-           <div class="artist-links"><a href="https://www.muenchenticket.de/go/exiwttghh3qb?campaign=muenchen" target="external"><button class="sb-button fa fa-ticket"></button></a><a href="https://www.youtube.com/results?search_query=Musik+Kataklysm + The Black Dahlia Murder + Dyscarnate" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Halle" target="external">Backstage Halle</a></div>             <div></div>
-           <div class="startDate">20:00</div>
-           <a href="https://www.bing.com/search?q=Unearth + Misery Index + Commander" target="external"><h4>Unearth + Misery Index + Commander</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/unearth-misery-index.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Unearth + Misery Index + Commander" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Club" target="external">Backstage Club</a></div>             <div></div>
-           <div class="startDate">20:45</div>
-           <a href="https://www.bing.com/search?q=Ees Soundsystem" target="external"><h4>Ees Soundsystem</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/ees-the-yes-ja-band.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Ees Soundsystem" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div><div class="date">4. 8. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage" target="external">Backstage</a></div>             <div></div>
-           <div class="startDate">19:00</div>
-           <a href="https://www.bing.com/search?q=Free & Easy Politics Iv: Dr. Rainer Sontheimer Pr&auml;sentiert:" target="external"><h4>Free & Easy Politics Iv: Dr. Rainer Sontheimer Pr&auml;sentiert:</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/free-easy-politics-iv-dr-rainer-sontheimer-prasentiert.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Free & Easy Politics Iv: Dr. Rainer Sontheimer Pr&auml;sentiert:" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Halle" target="external">Backstage Halle</a></div>             <div></div>
-           <div class="startDate">19:00</div>
-           <a href="https://www.bing.com/search?q=Combichrist + Smash Into Pieces + Priest + Mimi Barks" target="external"><h4>Combichrist + Smash Into Pieces + Priest + Mimi Barks</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/combichrist.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Combichrist + Smash Into Pieces + Priest + Mimi Barks" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage" target="external">Backstage</a></div>             <div></div>
-           <div class="startDate">19:00</div>
-           <a href="https://www.bing.com/search?q=Liab" target="external"><h4>Liab</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/liab.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Liab" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Club" target="external">Backstage Club</a></div>             <div></div>
-           <div class="startDate">20:00</div>
-           <a href="https://www.bing.com/search?q=Bishops Green + Plizzken | Abgesagt" target="external"><h4>Bishops Green + Plizzken | Abgesagt</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/bishops-green-plizzken.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Bishops Green + Plizzken | Abgesagt" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Werk" target="external">Backstage Werk</a></div>             <div></div>
-           <div class="startDate">20:30</div>
-           <a href="https://www.bing.com/search?q=F&uuml;nf Sterne Deluxe Feat. Toy Toy" target="external"><h4>F&uuml;nf Sterne Deluxe Feat. Toy Toy</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/funf-sterne-deluxe-feat-toy-toy.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.muenchenticket.de/" target="external"><button class="sb-button fa fa-ticket"></button></a><a href="https://www.youtube.com/results?search_query=Musik+F&uuml;nf Sterne Deluxe Feat. Toy Toy" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage" target="external">Backstage</a></div>             <div></div>
-           <div class="startDate">21:30</div>
-           <a href="https://www.bing.com/search?q=Kino: Courage" target="external"><h4>Kino: Courage</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/kino-courage.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Kino: Courage" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div><div class="date">5. 8. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage" target="external">Backstage</a></div>             <div></div>
-           <div class="startDate">19:00</div>
-           <a href="https://www.bing.com/search?q=Shots" target="external"><h4>Shots</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/shots.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Shots" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Halle" target="external">Backstage Halle</a></div>             <div></div>
-           <div class="startDate">20:00</div>
-           <a href="https://www.bing.com/search?q=Le Fly + Vulvarine + M.u.d.d.a" target="external"><h4>Le Fly + Vulvarine + M.u.d.d.a</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/le-fly.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Le Fly + Vulvarine + M.u.d.d.a" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Club" target="external">Backstage Club</a></div>             <div></div>
-           <div class="startDate">20:00</div>
-           <a href="https://www.bing.com/search?q=Witch + Samavayo + Tales Of Ojela" target="external"><h4>Witch + Samavayo + Tales Of Ojela</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/witch.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Witch + Samavayo + Tales Of Ojela" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Werk" target="external">Backstage Werk</a></div>             <div></div>
-           <div class="startDate">21:00</div>
-           <a href="https://www.bing.com/search?q=Macka B. + Stick A Bush" target="external"><h4>Macka B. + Stick A Bush</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/macka-b.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Macka B. + Stick A Bush" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div><div class="date">6. 8. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage" target="external">Backstage</a></div>             <div></div>
-           <div class="startDate">19:00</div>
-           <a href="https://www.bing.com/search?q=Hank Davison & Friends" target="external"><h4>Hank Davison & Friends</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/hank-davison-friends.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Hank Davison & Friends" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Club" target="external">Backstage Club</a></div>             <div></div>
-           <div class="startDate">20:00</div>
-           <a href="https://www.bing.com/search?q=Narin + Blackened Halo + Commence" target="external"><h4>Narin + Blackened Halo + Commence</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/narin-blackened-halo-commence.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Narin + Blackened Halo + Commence" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Halle" target="external">Backstage Halle</a></div>             <div></div>
-           <div class="startDate">20:00</div>
-           <a href="https://www.bing.com/search?q=Unzucht + Garagedays" target="external"><h4>Unzucht + Garagedays</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/unzcucht.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Unzucht + Garagedays" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Werk" target="external">Backstage Werk</a></div>             <div></div>
-           <div class="startDate">21:00</div>
-           <a href="https://www.bing.com/search?q=Hgich.t - "omas Deep Thoughts - Tour"" target="external"><h4>Hgich.t - "omas Deep Thoughts - Tour"</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/hgich-t.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Hgich.t - "omas Deep Thoughts - Tour"" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div><div class="date">7. 8. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage" target="external">Backstage</a></div>             <div></div>
-           <div class="startDate">19:00</div>
-           <a href="https://www.bing.com/search?q=Karin Rabhansl + Melli Zech" target="external"><h4>Karin Rabhansl + Melli Zech</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/karin-rabhansl-melli-zech.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Karin Rabhansl + Melli Zech" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Werk" target="external">Backstage Werk</a></div>             <div></div>
-           <div class="startDate">19:00</div>
-           <a href="https://www.bing.com/search?q=Comeback Kid + Darkest Hour + Rings Of Saturn + Dagger Threat + Spaced + Sabbled Hills" target="external"><h4>Comeback Kid + Darkest Hour + Rings Of Saturn + Dagger Threat + Spaced + Sabbled Hills</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/comeback-kid-darkest-hour-devil-in-me-spaced.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Comeback Kid + Darkest Hour + Rings Of Saturn + Dagger Threat + Spaced + Sabbled Hills" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Club" target="external">Backstage Club</a></div>             <div></div>
-           <div class="startDate">19:30</div>
-           <a href="https://www.bing.com/search?q=Earthship + Hemelbestormer + Blind Mess + Witch On A Trip" target="external"><h4>Earthship + Hemelbestormer + Blind Mess + Witch On A Trip</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/weedpecker-earthship.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Earthship + Hemelbestormer + Blind Mess + Witch On A Trip" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Backstage Halle" target="external">Backstage Halle</a></div>             <div></div>
-           <div class="startDate">20:00</div>
-           <a href="https://www.bing.com/search?q=Herzblut + Kassetenricardo + Gⓐffa" target="external"><h4>Herzblut + Kassetenricardo + Gⓐffa</h4></a>
-           <div class="artist-links"><a href="https://backstage.eu/herzblut-live-2022.html" target="external"><button class="sb-button fa">&#xf129</button></a><a href="https://www.youtube.com/results?search_query=Musik+Herzblut + Kassetenricardo + Gⓐffa" target="external"><button class="sb-button fa">&#xf16a;</button></a> </div>
-        </div>
      </div>
  
-      </div>
 <div class="sb-footer">
-    <a href="../pages/about.html">&uuml;ber</a>
+    <a href="../pages/project.html">projekt</a>
+    - <a href="../pages/team.html">team</a>
+    - <a href="../pages/about.html">&uuml;ber</a>
     - <a href="../pages/impressum.html">impressum</a>
     - <a href="../pages/disclaimer.html">disclaimer</a>
     - <a href="../pages/event.html">event posten</a>
@@ -477,8 +122,8 @@
 <div></div><!--right column-->
 <div class="sb-footer-social">
     <a href="https://www.instagram.com/stadtbook/">instagram</a> -
-    <a href="https://twitter.com/stadtbook">twitter</a> -
-    <a href="https://stadtbook.blogspot.com/">blogspot</a>
+    <a href="https://www.facebook.com/stadtbook/">facebook</a> -
+    <a href="https://twitter.com/stadtbook">twitter</a>
 </div>
 <div></div><!--right column-->
 <div class="sb-generator">
@@ -486,7 +131,9 @@
 </div>
 
 
-  </div><div id="tool-tip" class="sb-tool-tip">Test</div>
+  </div>
+
+<div id="tool-tip" class="sb-tool-tip">Test</div>
 <div id="cookie-box" class="sb-cookie-box"></div>
 
   </body><script language="javascript">
@@ -496,15 +143,12 @@
     stadtbook.ads = new Ads(window.location.search);
     // cookies
     stadtbook.cookies.showOrHide();
-
-    // banner positions
-    function adjustStartBanner() {
-        let positionBanner = document.getElementById('top1').offsetHeight;
-        document.getElementById('banner').style.marginTop = positionBanner + 20;
-    }
-    adjustStartBanner();
+    stadtbook.adjustStartBanner();
     window.addEventListener("resize", function(event) {
-        adjustStartBanner();
+        stadtbook.adjustStartBanner();
     });
 </script>
+  <script language="javascript">
+      stadtbook.createDayNav();
+  </script>
 </html>

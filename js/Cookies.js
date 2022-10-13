@@ -48,7 +48,7 @@ function Cookies(search) {
             this.hide();
         }
         else {
-            this.show();
+            this.hide();
         }
     }
 

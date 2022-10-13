@@ -26,15 +26,15 @@
 
                 <!--FACEBOOK-->
         <meta property="og:title" content="Laufkalender"/>
-        <meta property="og:url" content="https://stadtbook.de/pages/pages/laufkalender.html"/>
+        <meta property="og:url" content="https://stadtbook.de/pages/laufkalender.html"/>
         <meta property="og:site_name" content="stadtbook.de"/>
         <meta property="og:type" content="website"/>
 
                 <!--SEO-->
         <meta name="robots" content="index,follow"/>
-        <link rel="alternate" href="https://stadtbook.de/pages/pages/laufkalender.html" hreflang="x-default"/>
-        <link rel="alternate" href="https://stadtbook.de/pages/pages/laufkalender.html" hreflang="de-de"/>
-        <link rel="canonical" href="https://stadtbook.de/pages/pages/laufkalender.html"/>
+        <link rel="alternate" href="https://stadtbook.de/pages/laufkalender.html" hreflang="x-default"/>
+        <link rel="alternate" href="https://stadtbook.de/pages/laufkalender.html" hreflang="de-de"/>
+        <link rel="canonical" href="https://stadtbook.de/pages/laufkalender.html"/>
                 <!--meta name="google-site-verification" content=""/-->
                 <!--demo.theeventscalendar.com-->
 
@@ -45,60 +45,61 @@
                 <!--meta name="twitter:image" content=""/-->
 
                 <!--CSS-->
-        <link rel="stylesheet" href="../css/Day.css?v=1.0" type="text/css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
+        <link rel="stylesheet" href="../css/Day2.css?v=1.2" type="text/css"/>
 
-        <script src="../js/TypeAnchors.js?v=1.0"></script>
-        <script src="../js/Cookies.js?v=1.1"></script>
-        <script src="../js/Ads.js?v=1.0"></script>
-
+        <script src="../js/Stadtbook.js?v=2.1"></script>
+        <script src="../js/TypeAnchors.js?v=2.0"></script>
+        <script src="../js/Cookies.js?v=2.0"></script>
+        <script src="../js/Ads.js?v=2.0"></script>
+        <script src="https://kit.fontawesome.com/affe0a850a.js" crossorigin="anonymous"></script>
                 <!--ANALYTICS-->
         <script language="javascript">
-        let stadtbook = {};
         stadtbook.cookies = new Cookies(window.location.search);
         </script>
     </head>
-  <body><div class="sb-top"  id="top">
-    <div class="sb-top-grid"  id="top1">
-        <div>
-            <a href="../index.html" class="sb-top-text">
-            <h1 class="sb-top-head">stadtbook.de</h1>
+  <body>
+      <a name="start"> </a>
+    <div class="sb-top">
+        <div id="top" class="sb-top-container">
+            <a href="../index.html" class="sb-top-text"  title="Zum Stadtkalender">
+                <div>
+                    <div class="sb-top-image"><img src="../img/stadtbook.jpeg" width="60" title="Zum Stadtkalender"/></div>
+                    <div class="sb-top-head">stadtbook.de</div>
+                </div>
             </a>
+            <div>
+                <div class="sb-top-grid">
+                    <h2 class="sb-top-title" id="top-title">Laufkalender</h2>
+                    <div class="sb-top-function">
+                        <div class="sb-top-search-box">
+                            <input type="text" class="sb-top-search" size="12" onkeypress="if (event.keyCode === 13) {
+                                        stadtbook.search(this.value);
+                                       }"/>
+                        </div>
+                        <div class="sb-top-button-box">
+                            <a href="https://www.instagram.com/stadtbook/" target="external">
+                                <i class="fa-brands fa-square-instagram" style="color:white;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sb-day-link-box" id="day-link-box"><div class="sb-top-calender"><a href="../index.html" title="zum Kalender" class="sb-day-link"><i class="fa-regular fa-clock"></i></a></div>
+                </div>
+            </div>
         </div>
-        <div class="sb-top-title">Laufkalender</div>
+        <div class="sb-type-link-box" > </div>
+    </div>
+
+
+    <div class="sb-body" id="body">
         <div></div>
-
-    <div class="sb-type-links" id="top2"> 
-    </div>
-    </div>
-</div>
-
-
-    <div class="sb-body">
-    <a name="start"> </a>
-<div class="banner" id="banner">
-    <div class="sub-title" id="slogan">... f&uuml;r Stadtentdecker</div>
-    <div class="month-box">
-        <iframe id="month"></iframe>
-        <script>
-            var iframe = document.getElementById('month');
-            if (iframe) {
-            let month = new Date().getMonth()+1;
-            if (month < 10) {
-                month='0' + month;
-            }
-            iframe.src='../months/2022-' + month + '.html';
-            }
-        </script>
-        <div class="copy-right"><a href="https://www.instagram.com/monis_blick/" class="copy-right-author" target="external">&#169; Bild Monika Hirmer</a></div>
-    </div>
-</div>
-<div class="sb-photo">
-    <img src="img/laufkalender.jpg" width="80%"/>
-    <div class="sb-photo-text">Photo by <a href="https://unsplash.com/@candrawnt_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Candra Winata</a> on <a href="https://unsplash.com/s/photos/running?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
-</div>
-
-      <div  class="sb-content"><p>Eine Vielfalt von Veranstaltungen von Cross und Hinderniss bis zum Marathon wartet auf die motivierten Mitl&auml;ufer.
+        <div>
+      <div  class="sb-content">
+        <div class="sb-photo">
+            <img src="img/laufkalender.jpg" width="100%"/>
+            <div class="sb-photo-text">Photo by <a href="https://unsplash.com/@candrawnt_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Candra Winata</a> on <a href="https://unsplash.com/s/photos/running?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
+        </div>
+        <h1>Laufkalender</h1><p>Eine Vielfalt von Veranstaltungen von Cross und Hinderniss bis zum Marathon wartet auf die motivierten Mitl&auml;ufer.
 </p>
 
 <p>
@@ -108,369 +109,665 @@ Wer einfach nur zusammen trainieren will, der kann sich Gruppen suchen, die beis
 
       </div>
 
-      <div>
+
      <div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+M&uuml;nchen" target="external">M&uuml;nchen</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Run of 22 bei den European Championships Munich" target="external"><h4>Run of 22 bei den European Championships Munich</h4></a>
-           <div class="artist-links"><a href="https://www.munich2022.com/de/runof22" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Odeonsplatz" target="external">Odeonsplatz</a></div>             <div></div>
-           <div class="startDate">15:30</div>
-           <a href="https://www.bing.com/search?q=Salomon Run Of 22 50 Jahre Olympische Spiele In M&uuml;nchen: One Vision. One Course. One Goal." target="external"><h4>Salomon Run Of 22 50 Jahre Olympische Spiele In M&uuml;nchen: One Vision. One Course. One Goal.</h4></a>
-           <div class="artist-links"> </div>
-        </div><div class="date">20. 8. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Ob. Moosschwaigestra&szlig;e 11" target="external">Ob. Moosschwaigestra&szlig;e 11</a></div>             <div></div>
-           <div class="startDate">14:00</div>
-           <a href="https://www.bing.com/search?q=Meetup Munich Hash House Harriers: Come run with the MH3!" target="external"><h4>Meetup Munich Hash House Harriers: Come run with the MH3!</h4></a>
-           <div class="artist-links"><a href="https://www.meetup.com/munich-hash-house-harriers/events/286857290" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">2. 9. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Livigno (Italien)" target="external">Livigno (Italien)</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=RUNNING Company LAUFCAMP<br>
-H&Ouml;HENTRAINING LIVIGNO" target="external"><h4>RUNNING Company LAUFCAMP<br>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Riem</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Riem" target="external"><h4 class="sb-artist-title">Parkrun Riem</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/riemer/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Westpark</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Westpark" target="external"><h4 class="sb-artist-title">Parkrun Westpark</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/westpark/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Riemer Park</a></div>
+                  <a href="https://www.bing.com/search?q=Riemer Parkrun" target="external"><h4 class="sb-artist-title">Riemer Parkrun</h4></a>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Ob. Moosschwaigestra&szlig;e 11</a></div>
+                  <a href="https://www.bing.com/search?q=Meetup Munich Hash House Harriers: Come run with the MH3!" target="external"><h4 class="sb-artist-title">Meetup Munich Hash House Harriers: Come run with the MH3!</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.meetup.com/munich-hash-house-harriers/events/286857290" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">27. 8. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Riem</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Riem" target="external"><h4 class="sb-artist-title">Parkrun Riem</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/riemer/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Westpark</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Westpark" target="external"><h4 class="sb-artist-title">Parkrun Westpark</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/westpark/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">2. 9. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Livigno (Italien)</a></div>
+                  <a href="https://www.bing.com/search?q=RUNNING Company LAUFCAMP<br>
+H&Ouml;HENTRAINING LIVIGNO" target="external"><h4 class="sb-artist-title">RUNNING Company LAUFCAMP<br>
 H&Ouml;HENTRAINING LIVIGNO</h4></a>
-           <div class="artist-links"><a href="https://www.runningcompany.de/produkte/hoehentraining-wellness-italien/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Livigno (Italien)" target="external">Livigno (Italien)</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=RUNNING Company LAUFWOCHENENDE " target="external"><h4>RUNNING Company LAUFWOCHENENDE </h4></a>
-           <div class="artist-links"><a href="https://www.runningcompany.de/produkte/laufwochenende-livigno/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">3. 9. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Freising" target="external">Freising</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Freisinger Volksfestlauf" target="external"><h4>Freisinger Volksfestlauf</h4></a>
-           <div class="artist-links"><a href="http://www.volksfestlauf.de/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Regattastrecke" target="external">Regattastrecke</a></div>             <div></div>
-           <div class="startDate">11:00</div>
-           <a href="https://www.bing.com/search?q=Color Obstacle Rush M&uuml;nchen" target="external"><h4>Color Obstacle Rush M&uuml;nchen</h4></a>
-           <div class="artist-links"><a href="https://www.runnersworld.de/laufkalender/color-obstacle-rush-muenchen/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">10. 9. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Putzbrunn" target="external">Putzbrunn</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Lauf in den Herbst" target="external"><h4>Lauf in den Herbst</h4></a>
-           <div class="artist-links"><a href="https://www.putzbrunner-herbstlauf.de/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Post-Sportpark" target="external">Post-Sportpark</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=6-Stunden-Lauf M&uuml;nchen" target="external"><h4>6-Stunden-Lauf M&uuml;nchen</h4></a>
-           <div class="artist-links"><a href="http://de.srichinmoyraces.org/6-stunden-lauf-munchen" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Am Kapuzinerh&ouml;lzl" target="external">Am Kapuzinerh&ouml;lzl</a></div>             <div></div>
-           <div class="startDate">10:00</div>
-           <a href="https://www.bing.com/search?q=Sri Chinmoy Peace-Mile 6-Stunden-Lauf" target="external"><h4>Sri Chinmoy Peace-Mile 6-Stunden-Lauf</h4></a>
-           <div class="artist-links"><a href="https://de.srichinmoyraces.org/6-stunden-lauf-muenchen#third-section-tab-3" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">11. 9. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Livigno (Italien)" target="external">Livigno (Italien)</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=RUNNING Company LAUFCAMP<br>
-H&Ouml;HENTRAINING " target="external"><h4>RUNNING Company LAUFCAMP<br>
+                  <div class="sb-event-buttons">
+              <a href="https://www.runningcompany.de/produkte/hoehentraining-wellness-italien/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Livigno (Italien)</a></div>
+                  <a href="https://www.bing.com/search?q=RUNNING Company LAUFWOCHENENDE " target="external"><h4 class="sb-artist-title">RUNNING Company LAUFWOCHENENDE </h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.runningcompany.de/produkte/laufwochenende-livigno/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">3. 9. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Freising</a></div>
+                  <a href="https://www.bing.com/search?q=Freisinger Volksfestlauf" target="external"><h4 class="sb-artist-title">Freisinger Volksfestlauf</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="http://www.volksfestlauf.de/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Riem</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Riem" target="external"><h4 class="sb-artist-title">Parkrun Riem</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/riemer/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Westpark</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Westpark" target="external"><h4 class="sb-artist-title">Parkrun Westpark</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/westpark/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Regattastrecke</a></div>
+                  <a href="https://www.bing.com/search?q=Color Obstacle Rush M&uuml;nchen" target="external"><h4 class="sb-artist-title">Color Obstacle Rush M&uuml;nchen</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.runnersworld.de/laufkalender/color-obstacle-rush-muenchen/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">10. 9. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Putzbrunn</a></div>
+                  <a href="https://www.bing.com/search?q=Lauf in den Herbst" target="external"><h4 class="sb-artist-title">Lauf in den Herbst</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.putzbrunner-herbstlauf.de/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Post-Sportpark</a></div>
+                  <a href="https://www.bing.com/search?q=6-Stunden-Lauf M&uuml;nchen" target="external"><h4 class="sb-artist-title">6-Stunden-Lauf M&uuml;nchen</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="http://de.srichinmoyraces.org/6-stunden-lauf-munchen" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Riem</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Riem" target="external"><h4 class="sb-artist-title">Parkrun Riem</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/riemer/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Westpark</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Westpark" target="external"><h4 class="sb-artist-title">Parkrun Westpark</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/westpark/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Am Kapuzinerh&ouml;lzl</a></div>
+                  <a href="https://www.bing.com/search?q=Sri Chinmoy Peace-Mile 6-Stunden-Lauf" target="external"><h4 class="sb-artist-title">Sri Chinmoy Peace-Mile 6-Stunden-Lauf</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://de.srichinmoyraces.org/6-stunden-lauf-muenchen#third-section-tab-3" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">11. 9. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Livigno (Italien)</a></div>
+                  <a href="https://www.bing.com/search?q=RUNNING Company LAUFCAMP<br>
+H&Ouml;HENTRAINING " target="external"><h4 class="sb-artist-title">RUNNING Company LAUFCAMP<br>
 H&Ouml;HENTRAINING </h4></a>
-           <div class="artist-links"><a href="https://www.runningcompany.de/produkte/hoehentraining-wellness-italien/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Englischer Garten" target="external">Englischer Garten</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=run for life" target="external"><h4>run for life</h4></a>
-           <div class="artist-links"><a href="https://www.runforlife.de/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+T&ouml;lz – Lenggries" target="external">T&ouml;lz – Lenggries</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Isar-Lauf Bad T&ouml;lz – Lenggries" target="external"><h4>Isar-Lauf Bad T&ouml;lz – Lenggries</h4></a>
-           <div class="artist-links"><a href="http://www.toelzer-isar-lauf.de/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Regattastrecke" target="external">Regattastrecke</a></div>             <div></div>
-           <div class="startDate">11:00</div>
-           <a href="https://www.bing.com/search?q=Super League Triathlon " target="external"><h4>Super League Triathlon </h4></a>
-           <div class="artist-links"><a href="https://www.runnersworld.de/laufkalender/super-league-triathlon-muenchen/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">14. 9. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Isarauen M&uuml;nchen" target="external">Isarauen M&uuml;nchen</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=START Running Einsteiger-Lauftraining" target="external"><h4>START Running Einsteiger-Lauftraining</h4></a>
-           <div class="artist-links"><a href="https://www.runningcompany.de/training/start-running/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">15. 9. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Feringasee" target="external">Feringasee</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=RUN for HOPE Charity-Lauf" target="external"><h4>RUN for HOPE Charity-Lauf</h4></a>
-           <div class="artist-links"><a href="https://www.laufcoaches.com/run-for-hope" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">18. 9. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Karlsfeld" target="external">Karlsfeld</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Karlsfelder Seelauf" target="external"><h4>Karlsfelder Seelauf</h4></a>
-           <div class="artist-links"><a href="https://www.tsvek.de/sportangebot/leichtathletik/wettkampfangebot-la/seelauf-la.html" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Alt&ouml;tting" target="external">Alt&ouml;tting</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=OMV Halbmarathon Alt&ouml;tting" target="external"><h4>OMV Halbmarathon Alt&ouml;tting</h4></a>
-           <div class="artist-links"><a href="http://www.halbmarathon.de/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">24. 9. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Oberschlei&szlig;heim" target="external">Oberschlei&szlig;heim</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Oktoberfestlauf" target="external"><h4>Oktoberfestlauf</h4></a>
-           <div class="artist-links"><a href="http://www.oktoberfestlauf.de/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">25. 9. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Erding" target="external">Erding</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Erdinger Stadtlauf" target="external"><h4>Erdinger Stadtlauf</h4></a>
-           <div class="artist-links"><a href="http://trisport-erding.de/stadtlauf" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Englischer Garten" target="external">Englischer Garten</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Lions-Monopteros-Lauf" target="external"><h4>Lions-Monopteros-Lauf</h4></a>
-           <div class="artist-links"><a href="https://www.monopteroslauf.de/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">1. 10. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Prien am Chiemsee" target="external">Prien am Chiemsee</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Herrenchiemseelauf" target="external"><h4>Herrenchiemseelauf</h4></a>
-           <div class="artist-links"><a href="https://herrenchiemseelauf.de/home" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">3. 10. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Anzing" target="external">Anzing</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Schweiger Forstlauf der LG Sempt" target="external"><h4>Schweiger Forstlauf der LG Sempt</h4></a>
-           <div class="artist-links"><a href="http://forstlauf.de/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Gilching" target="external">Gilching</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Gilching l&auml;uft" target="external"><h4>Gilching l&auml;uft</h4></a>
-           <div class="artist-links"><a href="https://gilching-laeuft.de/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">5. 10. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Stadtbibliothek Im Hp8" target="external">Stadtbibliothek Im Hp8</a></div>             <div></div>
-           <div class="startDate">19:00</div>
-           <a href="https://www.bing.com/search?q=Lese-Lauftreff" target="external"><h4>Lese-Lauftreff</h4></a>
-           <div class="artist-links"><a href="https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/lese-lauftreff-13801" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">9. 10. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+M&uuml;nchen" target="external">M&uuml;nchen</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Generali M&uuml;nchen Marathon" target="external"><h4>Generali M&uuml;nchen Marathon</h4></a>
-           <div class="artist-links"><a href="https://www.generalimuenchenmarathon.de/?id=2&L=0" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Gilching" target="external">Gilching</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Andechser Naturlauf" target="external"><h4>Andechser Naturlauf</h4></a>
-           <div class="artist-links"><a href="https://www.andechser-natur.de/3-andechser-naturlauf" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">14. 10. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Prien am Chiemsee" target="external">Prien am Chiemsee</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=RUNNING Company CHIEMSEE LAUFREISE" target="external"><h4>RUNNING Company CHIEMSEE LAUFREISE</h4></a>
-           <div class="artist-links"><a href="https://www.runningcompany.de/produkte/laufreise-in-deutschland-laufcamp-am-chiemsee/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">15. 10. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Riem" target="external">Riem</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Riem Arcaden Run" target="external"><h4>Riem Arcaden Run</h4></a>
-           <div class="artist-links"><a href="https://riem-arcaden-run.de/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+M&uuml;nchen" target="external">M&uuml;nchen</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q= 	Charity Walk & Run M&uuml;nchen" target="external"><h4> 	Charity Walk & Run M&uuml;nchen</h4></a>
-           <div class="artist-links"><a href="https://www.charity-walk.info/staedte/muenchen/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">16. 10. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Germering" target="external">Germering</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Germeringer Stadtlauf" target="external"><h4>Germeringer Stadtlauf</h4></a>
-           <div class="artist-links"><a href="https://leichtathletik.sv-germering.de/stadtlauf/germeringer-stadtlauf/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">18. 10. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Prien am Chiemsee" target="external">Prien am Chiemsee</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=RUNNING Company CHIEMSEE LAUFREISE" target="external"><h4>RUNNING Company CHIEMSEE LAUFREISE</h4></a>
-           <div class="artist-links"><a href="https://www.runningcompany.de/produkte/laufreise-in-deutschland-laufcamp-am-chiemsee/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">23. 10. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Olympiapark" target="external">Olympiapark</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Olympia Alm Cross" target="external"><h4>Olympia Alm Cross</h4></a>
-           <div class="artist-links"><a href="https://www.olympia-alm-cross.de/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">24. 10. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Isarauen M&uuml;nchen" target="external">Isarauen M&uuml;nchen</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=START Running Anf&auml;nger-Laufkurs" target="external"><h4>START Running Anf&auml;nger-Laufkurs</h4></a>
-           <div class="artist-links"><a href="https://www.runningcompany.de/training/start-running/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">29. 10. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Riemer Park" target="external">Riemer Park</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Bestzeitmarathon" target="external"><h4>Bestzeitmarathon</h4></a>
-           <div class="artist-links"><a href="https://www.bestzeitmarathon.de/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">30. 10. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Holzkirchen" target="external">Holzkirchen</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Holzkirchner Marktlauf" target="external"><h4>Holzkirchner Marktlauf</h4></a>
-           <div class="artist-links"><a href="http://www.rslc-holzkirchen.de/cms/index.php/ml-programminfos.html" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">6. 11. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Aubinger Lohe" target="external">Aubinger Lohe</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Teufelsberg-Crosslauf" target="external"><h4>Teufelsberg-Crosslauf</h4></a>
-           <div class="artist-links"><a href="http://www.teufelsberglauf.de/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">16. 11. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Olympiapark" target="external">Olympiapark</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=ZHS Crosslaufserie" target="external"><h4>ZHS Crosslaufserie</h4></a>
-           <div class="artist-links"><a href="https://www.zhs-muenchen.de/zhs/wettkampfsport/aktuelle-ausschreibungen/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">19. 11. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Olympiapark" target="external">Olympiapark</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Lauf „Ich Lauf Mit gegen Gewalt“" target="external"><h4>Lauf „Ich Lauf Mit gegen Gewalt“</h4></a>
-           <div class="artist-links"><a href="https://www.landkreis-muenchen.de/themen/familie-und-soziales/lauf-ich-lauf-mit-gegen-gewalt/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">30. 11. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Olympiapark" target="external">Olympiapark</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=ZHS Crosslaufserie" target="external"><h4>ZHS Crosslaufserie</h4></a>
-           <div class="artist-links"><a href="https://www.zhs-muenchen.de/zhs/wettkampfsport/aktuelle-ausschreibungen/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">10. 12. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Olympiapark" target="external">Olympiapark</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Winterlaufserie M&uuml;nchen" target="external"><h4>Winterlaufserie M&uuml;nchen</h4></a>
-           <div class="artist-links"><a href="https://www.laufwinter.de/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">15. 12. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Olympiapark" target="external">Olympiapark</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=ZHS Crosslaufserie" target="external"><h4>ZHS Crosslaufserie</h4></a>
-           <div class="artist-links"><a href="https://www.zhs-muenchen.de/zhs/wettkampfsport/aktuelle-ausschreibungen/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">18. 12. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Ismaning" target="external">Ismaning</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Ismaninger Winterlaufserie" target="external"><h4>Ismaninger Winterlaufserie</h4></a>
-           <div class="artist-links"><a href="https://winterlaufserie.net/wp/winterlaufserie-ausschreibung/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div><div class="date">31. 12. 2022</div>
-
-        <div class="sb-events">
-           <div></div>
-           <div class="location"><a href="https://www.google.de/search?q=M&uuml;nchen+Olympiapark" target="external">Olympiapark</a></div>             <div></div>
-           <div class="startDate"></div>
-           <a href="https://www.bing.com/search?q=Silvesterlauf" target="external"><h4>Silvesterlauf</h4></a>
-           <div class="artist-links"><a href="https://www.silvesterlauf-muenchen.de/" target="external"><button class="sb-button fa">&#xf129</button></a> </div>
-        </div>
+                  <div class="sb-event-buttons">
+              <a href="https://www.runningcompany.de/produkte/hoehentraining-wellness-italien/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Englischer Garten</a></div>
+                  <a href="https://www.bing.com/search?q=run for life" target="external"><h4 class="sb-artist-title">run for life</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.runforlife.de/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">T&ouml;lz – Lenggries</a></div>
+                  <a href="https://www.bing.com/search?q=Isar-Lauf Bad T&ouml;lz – Lenggries" target="external"><h4 class="sb-artist-title">Isar-Lauf Bad T&ouml;lz – Lenggries</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="http://www.toelzer-isar-lauf.de/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Regattastrecke</a></div>
+                  <a href="https://www.bing.com/search?q=Super League Triathlon " target="external"><h4 class="sb-artist-title">Super League Triathlon </h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.runnersworld.de/laufkalender/super-league-triathlon-muenchen/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">14. 9. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Isarauen M&uuml;nchen</a></div>
+                  <a href="https://www.bing.com/search?q=START Running Einsteiger-Lauftraining" target="external"><h4 class="sb-artist-title">START Running Einsteiger-Lauftraining</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.runningcompany.de/training/start-running/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">15. 9. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Feringasee</a></div>
+                  <a href="https://www.bing.com/search?q=RUN for HOPE Charity-Lauf" target="external"><h4 class="sb-artist-title">RUN for HOPE Charity-Lauf</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.laufcoaches.com/run-for-hope" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">17. 9. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Riem</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Riem" target="external"><h4 class="sb-artist-title">Parkrun Riem</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/riemer/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Westpark</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Westpark" target="external"><h4 class="sb-artist-title">Parkrun Westpark</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/westpark/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">18. 9. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Karlsfeld</a></div>
+                  <a href="https://www.bing.com/search?q=Karlsfelder Seelauf" target="external"><h4 class="sb-artist-title">Karlsfelder Seelauf</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.tsvek.de/sportangebot/leichtathletik/wettkampfangebot-la/seelauf-la.html" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Alt&ouml;tting</a></div>
+                  <a href="https://www.bing.com/search?q=OMV Halbmarathon Alt&ouml;tting" target="external"><h4 class="sb-artist-title">OMV Halbmarathon Alt&ouml;tting</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="http://www.halbmarathon.de/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">24. 9. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Theresienwiese</a></div>
+                  <a href="https://www.bing.com/search?q=Oktoberfestlauf" target="external"><h4 class="sb-artist-title">Oktoberfestlauf</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="http://www.oktoberfestlauf.de/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Riem</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Riem" target="external"><h4 class="sb-artist-title">Parkrun Riem</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/riemer/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Westpark</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Westpark" target="external"><h4 class="sb-artist-title">Parkrun Westpark</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/westpark/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">25. 9. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Erding</a></div>
+                  <a href="https://www.bing.com/search?q=Erdinger Stadtlauf" target="external"><h4 class="sb-artist-title">Erdinger Stadtlauf</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="http://trisport-erding.de/stadtlauf" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Englischer Garten</a></div>
+                  <a href="https://www.bing.com/search?q=Lions-Monopteros-Lauf" target="external"><h4 class="sb-artist-title">Lions-Monopteros-Lauf</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.monopteroslauf.de/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">1. 10. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Prien am Chiemsee</a></div>
+                  <a href="https://www.bing.com/search?q=Herrenchiemseelauf" target="external"><h4 class="sb-artist-title">Herrenchiemseelauf</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://herrenchiemseelauf.de/home" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Riem</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Riem" target="external"><h4 class="sb-artist-title">Parkrun Riem</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/riemer/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Westpark</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Westpark" target="external"><h4 class="sb-artist-title">Parkrun Westpark</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/westpark/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">3. 10. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Anzing</a></div>
+                  <a href="https://www.bing.com/search?q=Schweiger Forstlauf der LG Sempt" target="external"><h4 class="sb-artist-title">Schweiger Forstlauf der LG Sempt</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="http://forstlauf.de/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Gilching</a></div>
+                  <a href="https://www.bing.com/search?q=Gilching l&auml;uft" target="external"><h4 class="sb-artist-title">Gilching l&auml;uft</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://gilching-laeuft.de/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">5. 10. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Stadtbibliothek Im Hp8</a></div>
+                  <a href="https://www.bing.com/search?q=Lese-Lauftreff" target="external"><h4 class="sb-artist-title">Lese-Lauftreff</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.muenchner-stadtbibliothek.de/veranstaltungen/details/lese-lauftreff-13801" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">8. 10. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Riem</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Riem" target="external"><h4 class="sb-artist-title">Parkrun Riem</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/riemer/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Westpark</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Westpark" target="external"><h4 class="sb-artist-title">Parkrun Westpark</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/westpark/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">9. 10. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">M&uuml;nchen</a></div>
+                  <a href="https://www.bing.com/search?q=Generali M&uuml;nchen Marathon" target="external"><h4 class="sb-artist-title">Generali M&uuml;nchen Marathon</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.generalimuenchenmarathon.de/?id=2&L=0" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Gilching</a></div>
+                  <a href="https://www.bing.com/search?q=Andechser Naturlauf" target="external"><h4 class="sb-artist-title">Andechser Naturlauf</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.andechser-natur.de/3-andechser-naturlauf" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">14. 10. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Prien am Chiemsee</a></div>
+                  <a href="https://www.bing.com/search?q=RUNNING Company CHIEMSEE LAUFREISE" target="external"><h4 class="sb-artist-title">RUNNING Company CHIEMSEE LAUFREISE</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.runningcompany.de/produkte/laufreise-in-deutschland-laufcamp-am-chiemsee/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">15. 10. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Riem</a></div>
+                  <a href="https://www.bing.com/search?q=Riem Arcaden Run" target="external"><h4 class="sb-artist-title">Riem Arcaden Run</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://riem-arcaden-run.de/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">M&uuml;nchen</a></div>
+                  <a href="https://www.bing.com/search?q= 	Charity Walk & Run M&uuml;nchen" target="external"><h4 class="sb-artist-title"> 	Charity Walk & Run M&uuml;nchen</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.charity-walk.info/staedte/muenchen/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Riem</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Riem" target="external"><h4 class="sb-artist-title">Parkrun Riem</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/riemer/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Westpark</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Westpark" target="external"><h4 class="sb-artist-title">Parkrun Westpark</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/westpark/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">16. 10. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Germering</a></div>
+                  <a href="https://www.bing.com/search?q=Germeringer Stadtlauf" target="external"><h4 class="sb-artist-title">Germeringer Stadtlauf</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://leichtathletik.sv-germering.de/stadtlauf/germeringer-stadtlauf/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">18. 10. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Prien am Chiemsee</a></div>
+                  <a href="https://www.bing.com/search?q=RUNNING Company CHIEMSEE LAUFREISE" target="external"><h4 class="sb-artist-title">RUNNING Company CHIEMSEE LAUFREISE</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.runningcompany.de/produkte/laufreise-in-deutschland-laufcamp-am-chiemsee/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">22. 10. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Riem</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Riem" target="external"><h4 class="sb-artist-title">Parkrun Riem</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/riemer/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Westpark</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Westpark" target="external"><h4 class="sb-artist-title">Parkrun Westpark</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/westpark/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">23. 10. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="http://www.olympiapark.de/" target="external">Olympiapark</a></div>
+                  <a href="https://www.bing.com/search?q=Olympia Alm Cross" target="external"><h4 class="sb-artist-title">Olympia Alm Cross</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.olympia-alm-cross.de/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">24. 10. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Isarauen M&uuml;nchen</a></div>
+                  <a href="https://www.bing.com/search?q=START Running Anf&auml;nger-Laufkurs" target="external"><h4 class="sb-artist-title">START Running Anf&auml;nger-Laufkurs</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.runningcompany.de/training/start-running/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">29. 10. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Riemer Park</a></div>
+                  <a href="https://www.bing.com/search?q=Bestzeitmarathon" target="external"><h4 class="sb-artist-title">Bestzeitmarathon</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.bestzeitmarathon.de/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Riem</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Riem" target="external"><h4 class="sb-artist-title">Parkrun Riem</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/riemer/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Westpark</a></div>
+                  <a href="https://www.bing.com/search?q=Parkrun Westpark" target="external"><h4 class="sb-artist-title">Parkrun Westpark</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.parkrun.com.de/westpark/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">30. 10. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Holzkirchen</a></div>
+                  <a href="https://www.bing.com/search?q=Holzkirchner Marktlauf" target="external"><h4 class="sb-artist-title">Holzkirchner Marktlauf</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="http://www.rslc-holzkirchen.de/cms/index.php/ml-programminfos.html" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">6. 11. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Aubinger Lohe</a></div>
+                  <a href="https://www.bing.com/search?q=Teufelsberg-Crosslauf" target="external"><h4 class="sb-artist-title">Teufelsberg-Crosslauf</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="http://www.teufelsberglauf.de/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">16. 11. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="http://www.olympiapark.de/" target="external">Olympiapark</a></div>
+                  <a href="https://www.bing.com/search?q=ZHS Crosslaufserie" target="external"><h4 class="sb-artist-title">ZHS Crosslaufserie</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.zhs-muenchen.de/zhs/wettkampfsport/aktuelle-ausschreibungen/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">19. 11. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="http://www.olympiapark.de/" target="external">Olympiapark</a></div>
+                  <a href="https://www.bing.com/search?q=Lauf „Ich Lauf Mit gegen Gewalt“" target="external"><h4 class="sb-artist-title">Lauf „Ich Lauf Mit gegen Gewalt“</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.landkreis-muenchen.de/themen/familie-und-soziales/lauf-ich-lauf-mit-gegen-gewalt/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">30. 11. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="http://www.olympiapark.de/" target="external">Olympiapark</a></div>
+                  <a href="https://www.bing.com/search?q=ZHS Crosslaufserie" target="external"><h4 class="sb-artist-title">ZHS Crosslaufserie</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.zhs-muenchen.de/zhs/wettkampfsport/aktuelle-ausschreibungen/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">10. 12. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="http://www.olympiapark.de/" target="external">Olympiapark</a></div>
+                  <a href="https://www.bing.com/search?q=Winterlaufserie M&uuml;nchen" target="external"><h4 class="sb-artist-title">Winterlaufserie M&uuml;nchen</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.laufwinter.de/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">15. 12. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="http://www.olympiapark.de/" target="external">Olympiapark</a></div>
+                  <a href="https://www.bing.com/search?q=ZHS Crosslaufserie" target="external"><h4 class="sb-artist-title">ZHS Crosslaufserie</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.zhs-muenchen.de/zhs/wettkampfsport/aktuelle-ausschreibungen/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">18. 12. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="null" target="external">Ismaning</a></div>
+                  <a href="https://www.bing.com/search?q=Ismaninger Winterlaufserie" target="external"><h4 class="sb-artist-title">Ismaninger Winterlaufserie</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://winterlaufserie.net/wp/winterlaufserie-ausschreibung/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div><div class="date">31. 12. 2022</div>
+            <div class="sb-events">
+               <div class="sb-start-date"></div>
+               <div>
+                  <div class="sb-location"><a href="http://www.olympiapark.de/" target="external">Olympiapark</a></div>
+                  <a href="https://www.bing.com/search?q=Silvesterlauf" target="external"><h4 class="sb-artist-title">Silvesterlauf</h4></a>
+                  <div class="sb-event-buttons">
+              <a href="https://www.silvesterlauf-muenchen.de/" target="external"><i class="fa-solid fa-circle-info" style="padding:2px"></i></a> 
+                  </div>
+               </div>
+            </div>
      </div>
  
-      </div>
 <div class="sb-footer">
-    <a href="../pages/about.html">&uuml;ber</a>
+    <a href="../pages/project.html">projekt</a>
+    - <a href="../pages/team.html">team</a>
+    - <a href="../pages/about.html">&uuml;ber</a>
     - <a href="../pages/impressum.html">impressum</a>
     - <a href="../pages/disclaimer.html">disclaimer</a>
     - <a href="../pages/event.html">event posten</a>
@@ -478,8 +775,8 @@ H&Ouml;HENTRAINING </h4></a>
 <div></div><!--right column-->
 <div class="sb-footer-social">
     <a href="https://www.instagram.com/stadtbook/">instagram</a> -
-    <a href="https://twitter.com/stadtbook">twitter</a> -
-    <a href="https://stadtbook.blogspot.com/">blogspot</a>
+    <a href="https://www.facebook.com/stadtbook/">facebook</a> -
+    <a href="https://twitter.com/stadtbook">twitter</a>
 </div>
 <div></div><!--right column-->
 <div class="sb-generator">
@@ -487,7 +784,9 @@ H&Ouml;HENTRAINING </h4></a>
 </div>
 
 
-  </div><div id="tool-tip" class="sb-tool-tip">Test</div>
+  </div>
+
+<div id="tool-tip" class="sb-tool-tip">Test</div>
 <div id="cookie-box" class="sb-cookie-box"></div>
 
   </body><script language="javascript">
@@ -497,15 +796,12 @@ H&Ouml;HENTRAINING </h4></a>
     stadtbook.ads = new Ads(window.location.search);
     // cookies
     stadtbook.cookies.showOrHide();
-
-    // banner positions
-    function adjustStartBanner() {
-        let positionBanner = document.getElementById('top1').offsetHeight;
-        document.getElementById('banner').style.marginTop = positionBanner + 20;
-    }
-    adjustStartBanner();
+    stadtbook.adjustStartBanner();
     window.addEventListener("resize", function(event) {
-        adjustStartBanner();
+        stadtbook.adjustStartBanner();
     });
 </script>
+  <script language="javascript">
+      stadtbook.createDayNav();
+  </script>
 </html>
