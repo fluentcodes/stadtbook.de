@@ -29,6 +29,7 @@ const ANCHOR_STATUS_MAP = {
               "Philosophie":{"id":true},
               "Politik":{"id":true},
               "Reisen":{"id":true},
+              "Senioren":{"id":true},
               "Show":{"id":true},
               "Soziales":{"id":true},
               "Spiritualität":{"id":true},

@@ -1,10 +1,19 @@
   <html xmlns="http://www.w3.org/1999/html" lang="de">    <head>
-        <title>&Uuml;ber den Stadtkalender f&uuml;r M&uuml;nchen</title>
+        <title>&Uuml;ber stadtbook.de</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta charset="utf-8" />
         <meta name="generator" content="ElasticObjects.org TemplateCall"/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="&Uuml;ber stadtbook.de"/>
+        <meta name="description" property="og:description" content="&Uuml;ber den Stadtkalender f&uuml;r M&uuml;nchen"/>
+        <meta name="author" content="stadtbook.de" />
+        <meta name="image" property="og:image" content="https://stadtbook.de/img/stadtbook.jpeg"/>
+        <meta name="title" property="og:title" content="&Uuml;ber stadtbook.de"/>
+
+        <!--FACEBOOK-->
+
+        <meta property="og:url" content="https://stadtbook.de/pages/about.html"/>
+        <meta property="og:site_name" content="stadtbook.de"/>
+        <meta property="og:type" content="Event Calendar"/>
 
         <link rel="apple-touch-icon" sizes="57x57" href="../img/apple-icon-57x57.png"/>
         <link rel="apple-touch-icon" sizes="60x60" href="../img/apple-icon-60x60.png"/>
@@ -19,124 +28,132 @@
         <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon-96x96.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png"/>
-        <link rel="manifest" href="../manifest.json"/>
+        <link rel="manifest" href="/manifest.json"/>
         <meta name="msapplication-TileColor" content="#ffffff"/>
         <meta name="msapplication-TileImage" content="../img/ms-icon-144x144.png"/>
         <meta name="theme-color" content="#ffffff"/>
-
-                <!--FACEBOOK-->
-        <meta property="og:title" content="&Uuml;ber den Stadtkalender f&uuml;r M&uuml;nchen"/>
-        <meta property="og:url" content="https://stadtbook.de/pages/about.html"/>
-        <meta property="og:site_name" content="stadtbook.de"/>
-        <meta property="og:type" content="website"/>
 
                 <!--SEO-->
         <meta name="robots" content="index,follow"/>
         <link rel="alternate" href="https://stadtbook.de/pages/about.html" hreflang="x-default"/>
         <link rel="alternate" href="https://stadtbook.de/pages/about.html" hreflang="de-de"/>
         <link rel="canonical" href="https://stadtbook.de/pages/about.html"/>
-                <!--meta name="google-site-verification" content=""/-->
-                <!--demo.theeventscalendar.com-->
-
                 <!--TWITTER-->
-                <!--meta name="twitter:card" content="summary_large_image"/-->
-        <meta name="twitter:title" content="&Uuml;ber den Stadtkalender f&uuml;r M&uuml;nchen"/>
-        <meta name="twitter:description" content="&Uuml;ber stadtbook.de"/>
-                <!--meta name="twitter:image" content=""/-->
-
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:site" content="@stadtbook"/>
+        <meta name="twitter:creator" content="Werner Diwischek"/>
+        <meta name="twitter:title" content="&Uuml;ber stadtbook.de"/>
+        <meta name="twitter:description" content="&Uuml;ber den Stadtkalender f&uuml;r M&uuml;nchen"/>
+        <meta name="twitter:image" content="https://stadtbook.de/img/stadtbook.jpeg"/>
+        <meta name="twitter:image:alt" content="munich event calendar without paging"/>
                 <!--CSS-->
-        <link rel="stylesheet" href="../css/Day2.css?v=1.2" type="text/css"/>
-
-        <script src="../js/Stadtbook.js?v=2.1"></script>
-        <script src="../js/TypeAnchors.js?v=2.0"></script>
-        <script src="../js/Cookies.js?v=2.0"></script>
-        <script src="../js/Ads.js?v=2.0"></script>
+        <link rel="stylesheet" href="../css/Day12.css?v=1.0" type="text/css"/>
         <script src="https://kit.fontawesome.com/affe0a850a.js" crossorigin="anonymous"></script>
-                <!--ANALYTICS-->
-        <script language="javascript">
-        stadtbook.cookies = new Cookies(window.location.search);
-        </script>
+        <script src="../js/StadtbookTS.js" defer ></script>
     </head>
-  <body>
-      <a name="start"> </a>
-    <div class="sb-top">
-        <div id="top" class="sb-top-container">
-            <a href="../index.html" class="sb-top-text"  title="Zum Stadtkalender">
-                <div>
-                    <div class="sb-top-image"><img src="../img/stadtbook.jpeg" width="60" title="Zum Stadtkalender"/></div>
-                    <div class="sb-top-head">stadtbook.de</div>
-                </div>
-            </a>
-            <div>
-                <div class="sb-top-grid">
-                    <h2 class="sb-top-title" id="top-title">&Uuml;ber den Stadtkalender f&uuml;r M&uuml;nchen</h2>
-                    <div class="sb-top-function">
-                        <div class="sb-top-search-box">
-                            <input type="text" class="sb-top-search" size="12" onkeypress="if (event.keyCode === 13) {
-                                        stadtbook.search(this.value);
-                                       }"/>
-                        </div>
-                        <div class="sb-top-button-box">
-                            <a href="https://www.instagram.com/stadtbook/" target="external">
-                                <i class="fa-brands fa-square-instagram" style="color:white;"></i>
-                            </a>
+  <body class="sb-body">
+        <div class="sb-top">
+            <div id="top" class="sb-top-container">
+                <a href="../index.html" class="sb-top-text" title="Zum Stadtkalender">
+                    <div>
+                        <div class="sb-top-image">
+                            <img src="../img/stadtbook.jpeg" width="60" title="Zum Stadtkalender" alt="Bild stadtbook.de"/>
                         </div>
                     </div>
+                </a>
+                <div>
+                    <div class="sb-top-grid">
+                        <div class="sb-top-title-box">
+                            <a href="../index.html" class="sb-top-title">stadtbook.de</a>
+                        </div>
+                        <div style="sb-top-menu">
+                            <div class="sb-top-menu-popup"
+                                 onclick="stadtbookTS.menue.showOrHide();">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sb-day-link-box" id="day-link-box"></div>
                 </div>
-                <div class="sb-day-link-box" id="day-link-box"><div class="sb-top-calender"><a href="../index.html" title="zum Kalender" class="sb-day-link"><i class="fa-regular fa-clock"></i></a></div>
-                </div>
+                <div id="top"></div>
             </div>
         </div>
-        <div class="sb-type-link-box" > </div>
-    </div>
-
-
-    <div class="sb-body" id="body">
-        <div></div>
-        <div>
-      <div  class="sb-content">
-        <div class="sb-photo">
-            <img src="img/wernerundmoni.png" width="100%"/>
-            <div class="sb-photo-text">Vor der alten Utting</div>
-        </div>
-        <h1>&Uuml;ber den Stadtkalender f&uuml;r M&uuml;nchen</h1><p>
-    Meine Frau und ich gehen gerne zu Kleinkunstb&uuml;hnen mit Kabarett und Musik.
-    Wenn man sich auf die Suche macht, was an einem Tag l&auml;uft,
-    gleicht das in der Regel einer Schnitzeljagd.
-</p>
-<p>
-    Am Ende landet man nicht beim Besten,
-    sondern im Zuf&auml;lligen.
-    Gef&uuml;hlt verpasst man immer was. So ging es uns mal wieder
-    bei der langen ""Nacht der Musik"".
-</p>
-
-<p>Das war der Startschuss f&uuml;r <strong>Stadtbook.de</strong>:
-    Einen Veranstaltungskalender ohne viel Schnick Schnack und Ged&ouml;ns
-    mit einer Seite f&uuml;r einen Tag
-    und direkten Links zu den Veranstaltern oder Youtube,
-    um sich die K&uuml;nstlerInnen anzuh&ouml;ren.
-</p>
-
-<p>
-    <strong>Herzliche Gr&uuml;&szlig;e Werner und Monika</strong>
-</p>
+      <div class="sb-info" id="info">
+          <div class="sb-info-day" id="info-day">
+          </div>
+          <div>
+              <a href="https://www.facebook.com/share.php?u=https://stadtbook.de/pages/about.html" target="external" title="Empfehlen" class="sb-info-recommend"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://twitter.com/intent/tweet?url=https://stadtbook.de/pages/about.html" target="external" title="Empfehlen" class="sb-info-recommend"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <div class="sb-info-cite" id="info-cite">
+          </div>
       </div>
+      <div class="sb-info-teaser" id="info-teaser">Die Events auf einer Seite...</div>
+      <div class="sb-content">
+          <div class="sb-content-left" id="body-left"></div>
+          <div class="sb-content-main">
+              <div class="sb-content-select" id="body-content-select"></div>
+              <i class="sb-content-subtitle"></i>
+              <h1 class="sb-content-h1">&Uuml;ber stadtbook.de</h1>
+              <i class="sb-content-subtitle"></i>
+              <div class="sb-content-intro">stadtbook.de sammelt Events direkt von den Veranstaltern und bietet sie auf Tages-, Themen- und Veranstalterseiten ohne Paging auf einer Seite mit Links direkt zu den Informatione der Veranstalter an. </div>
+              <div id="content" class="sb-content-text"><p>
+Die Suche, was an einem Tag l&auml;uft,
+    gleicht oft einer Schnitzeljagd.
+    Man k&auml;mpft sich durch zig Veranstaltungsportale mit mehr oder weniger umfangreichen
+    Inhalten. Die bekommt man dann H&auml;ppchenweise in 10er oder 20er Portionen serviert.
+    </p>
+<p>
+    Die Inhalte der Portale selbst bieten oft wenig Hilfestellung, weil ein Link zu der Veranstaltung fehlt.
+</p>
+<p>
 
- 
-<div class="sb-footer">
-    <a href="../pages/project.html">projekt</a>
-    - <a href="../pages/team.html">team</a>
-    - <a href="../pages/about.html">&uuml;ber</a>
-    - <a href="../pages/impressum.html">impressum</a>
-    - <a href="../pages/disclaimer.html">disclaimer</a>
-    - <a href="../pages/event.html">event posten</a>
-</div>
-<div></div><!--right column-->
-<div class="sb-footer-social">
-    <a href="https://www.instagram.com/stadtbook/">instagram</a> -
-    <a href="https://www.facebook.com/stadtbook/">facebook</a> -
-    <a href="https://twitter.com/stadtbook">twitter</a>
+    Am Ende landet man nicht beim Besten,
+        sondern im Zuf&auml;lligen.
+    Gef&uuml;hlt verpasst man immer was.
+</p>
+
+<p>
+    stadtbook.de bietet direkte Links zu den Veranstaltern. Aktuell werden fast 200 Veranstalter regelm&auml;&szlig;ig aktualisiert.
+    Das war im ersten halben Jahr der Schwerpunkt.
+    Pro Tag ergibt das dann bis zu 400 Veranstaltungen, die dann &uuml;ber Rubriken unterteilt auf einer Seite angezeigt werden.
+</p>
+<p>Damit die Dateien nicht zu gro&szlig; werden, werden bewusst keine Inhalte angeboten.
+    Es ist eine spezialisierte Linksammlung zu den Inhalten der Veranstalter mit dem Ziel einer gewissen Vollst&auml;ndigkeit.</p></div>
+          </div>
+      </div>
+              <div class="sb-content-ad" id="body-content-ad"></div>
+      <div class="sb-content">
+          <div class="sb-content-left" id="body-left"></div>
+          <div class="sb-content-main">
+              <div id="info-Empfehlung" class="sb-type-box"></div>
+
+              <a name="Empfehlung"></a>
+              <h3 class="sb-teaser-type-h3"><span id="active-Recommendation" class="sb-button"
+                                                  onmouseenter="stadtbookTS.typeAnchors.showOrHide('Recommendation', true);"
+                                                  onmouseout="stadtbookTS.typeAnchors.showOrHide('Recommendation', false);"
+                                                  onclick="stadtbookTS.typeAnchors.change('Recommendation', true);">&#x2795;</span> &nbsp;
+                  <span class="sb-anchor-type">Empfehlung</span></h3>
+
+              <div id="target-Recommendation" class="sb-teaser-part"></div>  
+      </div>
+          <div></div>
+      </div><div class="sb-footer-box" style="margin-top:20px;">
+    <div class="sb-footer">
+        <a href="https://www.instagram.com/stadtbook/" class="sb-info-recommend" target="external"><i class="fa-brands fa-instagram"></i></a> -
+        <a rel="me" href="https://muenchen.social/@stadtbook">Mastodon</a>
+        &nbsp; <a href="../pages/project.html" class="sb-footer-link">projekt</a>
+        - <a href="../pages/team.html" class="sb-footer-link">team</a>
+        - <a href="../pages/about.html" class="sb-footer-link">&uuml;ber</a>
+        - <a href="../pages/impressum.html" class="sb-footer-link">impressum</a>
+        - <a href="../pages/disclaimer.html" class="sb-footer-link">disclaimer</a>
+        - <a href="../pages/event.html" class="sb-footer-link">event posten</a>
+
+    </div>
+    <div class="sb-footer">
+        <a href="https://www.facebook.com/share.php?u=https://stadtbook.de/pages/about.html" target="external" title="Empfehlen" class="sb-info-recommend"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/intent/tweet?url=https://stadtbook.de/pages/about.html" target="external" title="Empfehlen" class="sb-info-recommend"><i class="fa-brands fa-twitter"></i></a>
+    </div>
 </div>
 <div></div><!--right column-->
 <div class="sb-generator">
@@ -144,24 +161,8 @@
 </div>
 
 
-  </div>
-
-<div id="tool-tip" class="sb-tool-tip">Test</div>
-<div id="cookie-box" class="sb-cookie-box"></div>
-
-  </body><script language="javascript">
-
-    document.getElementById('tool-tip').style.display = 'none';
-    stadtbook.anchors = new TypeAnchors(window.location.search);
-    stadtbook.ads = new Ads(window.location.search);
-    // cookies
-    stadtbook.cookies.showOrHide();
-    stadtbook.adjustStartBanner();
-    window.addEventListener("resize", function(event) {
-        stadtbook.adjustStartBanner();
-    });
-</script>
-  <script language="javascript">
-      stadtbook.createDayNav();
-  </script>
+      <div id="menue-box" class="sb-menue-box"></div>
+      <div id="tool-tip" class="sb-tool-tip"></div>
+      <div id="cookie-box" class="sb-cookie-box"></div>
+  </body>
 </html>

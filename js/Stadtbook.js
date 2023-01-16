@@ -3,27 +3,32 @@ stadtbook.search = function (searchText) {
     document.location.href='https://bing.com?q=site:stadtbook.de+' + searchText;
 }
 
+stadtbook.show = async function (fileName, target) {
+      let element = document.getElementById(target);
+      let content = await (await fetch(fileName)).text();
+      element.innerHTML = content;
+}
+
+stadtbook.nav = function() {
+    this.show('Nav.html', 'body-content-select');
+}
+
 // banner positions
 function adjustStartBanner() {
     let positionBanner = document.getElementById('top').offsetHeight;
     document.getElementById('body').style.marginTop = positionBanner + 20;
-    if (window.innerWidth < 800) {
-        document.getElementById('top-title').style.fontSize='0.9rem';
-    }
-    else if (window.innerWidth > 800) {
-        document.getElementById('top-title').style.fontSize='1.2rem';
-    }
 }
 
 stadtbook.adjustStartBanner = function() {
     let positionBanner = document.getElementById('top').offsetHeight;
-    document.getElementById('body').style.marginTop = positionBanner + 20;
-    if (window.innerWidth < 800) {
-        document.getElementById('top-title').style.fontSize='0.9rem';
-    }
-    else if (window.innerWidth > 800) {
-        document.getElementById('top-title').style.fontSize='1.2rem';
-    }
+    document.getElementById('body').style.marginTop = positionBanner;
+}
+
+stadtbook.hideMenue = function() {
+
+}
+
+stadtbook.showMenue = function() {
 }
 
 stadtbook.createPageLink = function(date) {
@@ -59,18 +64,22 @@ stadtbook.createDayNav = function() {
     if (startDate.getDate()==today.getDate()) {
        dayNav += '<a ' +
             this.createPageLink(startDate) +
-            ' class="sb-day-actual" >' + startDate.getDate() + '</a>\n';
+            ' class="sb-day-actual" >' + startDate.getDate() + '</a>';
     }
     else if (startDate.getDay() == 0 || startDate.getDay() == 6) {
            dayNav += '<a ' +
                 this.createPageLink(startDate) +
-                ' class="sb-day-link-sunday" >' + startDate.getDate() + '</a>\n';
+                ' class="sb-day-link-weekend" >' + startDate.getDate() + '</a>';
+                if (startDate.getDay()==0) {
+                    dayNav += ' ';
+                }
     }
     else {
        dayNav += '<a ' +
             this.createPageLink(startDate) +
-            ' class="sb-day-link" >' + startDate.getDate() + '</a>\n';
+            ' class="sb-day-link" >' + startDate.getDate() + '</a>';
      }
+     dayNav += '&nbsp;'
      startDate.setDate(startDate.getDate() + 1);
     }
     // lastDate
