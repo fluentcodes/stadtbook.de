@@ -24,8 +24,8 @@
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php echo esc_url( get_bloginfo( 'pingback_url' ) ); ?>">
-	<link rel="stylesheet" href="./css/Day13.css?v=1.0" type="text/css"/>
-	<script src="./js/StadtbookTS.js" defer></script>
+	<link rel="stylesheet" href="./css/Day.css?ver=20230116" type="text/css"/>
+	<script src="./js/StadtbookTS.js?ver=20230116" defer></script>
 	<!--[if lt IE 9]>
 	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js?ver=3.7.0"></script>
 	<![endif]-->
